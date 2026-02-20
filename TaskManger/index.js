@@ -37,7 +37,9 @@ const addTask = (description) => {
         id: getNextId(tasks),
         description: description,
         completed: false,
-        inProgress: false
+        inProgress: false,
+        createdAt: new Date().toLocaleDateString(),
+        updatedAt: null
     };
     tasks.push(newTask);
     writeTask(tasks)
@@ -94,6 +96,7 @@ const updateTask = (id,description)=>{
     const task = tasks.find((task)=>task.id == parseInt(id))
     if(task){
         task.description=description
+        task.updateTask = new Date().toLocaleDateString()
         writeTask(tasks)
         console.log(`Task id ${id} is successfully updated`)
     }
