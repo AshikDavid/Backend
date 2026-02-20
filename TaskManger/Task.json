@@ -1,26 +1,10 @@
 [
   {
     "id": 1,
-    "description": "Buy milk",
+    "description": "Drink Coffee",
     "completed": false,
-    "inProgress": false
-  },
-  {
-    "id": 2,
-    "description": "Clean room",
-    "completed": false,
-    "inProgress": false
-  },
-  {
-    "id": 3,
-    "description": "do Cooking",
-    "completed": false,
-    "inProgress": false
-  },
-  {
-    "id": 4,
-    "description": "Learn Stiching",
-    "completed": false,
-    "inProgress": false
+    "inProgress": false,
+    "createdAt": "20/2/2026, 11:46:06 am",
+    "updatedAt": null
   }
 ]
