@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "description": "Buy milk",
+    "completed": false,
+    "inProgress": false
+  },
+  {
+    "id": 2,
+    "description": "Clean room",
+    "completed": false,
+    "inProgress": false
+  },
+  {
+    "id": 3,
+    "description": "do Cooking",
+    "completed": false,
+    "inProgress": false
+  },
+  {
+    "id": 4,
+    "description": "Learn Stiching",
+    "completed": false,
+    "inProgress": false
+  }
+]
