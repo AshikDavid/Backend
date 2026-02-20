@@ -1,3 +1,6 @@
+#!/usr/bin/env node
+
+
 const { log } = require('console');
 const fs = require('fs')
 const path = require('path')
@@ -38,7 +41,7 @@ const addTask = (description) => {
         description: description,
         completed: false,
         inProgress: false,
-        createdAt: new Date().toLocaleDateString(),
+        createdAt: new Date().toLocaleString(),
         updatedAt: null
     };
     tasks.push(newTask);
@@ -96,7 +99,7 @@ const updateTask = (id,description)=>{
     const task = tasks.find((task)=>task.id == parseInt(id))
     if(task){
         task.description=description
-        task.updateTask = new Date().toLocaleDateString()
+        task.updatedAt = new Date().toLocaleString();
         writeTask(tasks)
         console.log(`Task id ${id} is successfully updated`)
     }

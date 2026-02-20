@@ -1,0 +1,20 @@
+{
+  "name": "taskmanger",
+  "version": "1.0.0",
+  "description": "Solution for the [task-tracker].",
+  "main": "index.js",
+  "bin": {
+    "task": "./index.js"
+  },
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "task"
+  ],
+  "author": "AshikDavidAbraham",
+  "license": "ISC",
+  "type": "commonjs"
+}
